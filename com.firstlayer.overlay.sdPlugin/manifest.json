@@ -1,0 +1,112 @@
+{
+  "Author": "Jan Drommershausen",
+  "CodePath": "bin/plugin.js",
+  "Description": "Control FirstLayer overlays and features directly from your Stream Deck.",
+  "Icon": "imgs/plugin",
+  "Name": "FirstLayer",
+  "Version": "0.1.0",
+  "UUID": "com.firstlayer.overlay",
+  "SDKVersion": 2,
+  "Software": { "MinimumVersion": "6.4" },
+  "Nodejs": { "Version": "20", "Debug": "127.0.0.1:9229" },
+  "OS": [{ "Platform": "windows", "MinimumVersion": "10" }],
+  "Actions": [
+    {
+      "UUID": "com.firstlayer.overlay.toggle-toolbar",
+      "Name": "Toolbar",
+      "Icon": "imgs/actions/toolbar",
+      "States": [
+        { "Image": "imgs/actions/toolbar-off", "Name": "Versteckt" },
+        { "Image": "imgs/actions/toolbar-on",  "Name": "Sichtbar"  }
+      ]
+    },
+    {
+      "UUID": "com.firstlayer.overlay.toggle-chat",
+      "Name": "Chat",
+      "Icon": "imgs/actions/chat",
+      "States": [
+        { "Image": "imgs/actions/chat-off", "Name": "Versteckt" },
+        { "Image": "imgs/actions/chat-on",  "Name": "Sichtbar"  }
+      ]
+    },
+    {
+      "UUID": "com.firstlayer.overlay.toggle-pulse",
+      "Name": "Pulse",
+      "Icon": "imgs/actions/pulse",
+      "States": [
+        { "Image": "imgs/actions/pulse-off", "Name": "Versteckt" },
+        { "Image": "imgs/actions/pulse-on",  "Name": "Sichtbar"  }
+      ]
+    },
+    {
+      "UUID": "com.firstlayer.overlay.toggle-activities",
+      "Name": "Activities",
+      "Icon": "imgs/actions/activities",
+      "States": [
+        { "Image": "imgs/actions/activities-off", "Name": "Versteckt" },
+        { "Image": "imgs/actions/activities-on",  "Name": "Sichtbar"  }
+      ]
+    },
+    {
+      "UUID": "com.firstlayer.overlay.toggle-smart-grouping",
+      "Name": "Smart Grouping",
+      "Icon": "imgs/actions/smart-grouping",
+      "States": [
+        { "Image": "imgs/actions/smart-grouping-off", "Name": "Versteckt" },
+        { "Image": "imgs/actions/smart-grouping-on",  "Name": "Sichtbar"  }
+      ]
+    },
+    {
+      "UUID": "com.firstlayer.overlay.toggle-priority-feed",
+      "Name": "Priority Feed",
+      "Icon": "imgs/actions/priority-feed",
+      "States": [
+        { "Image": "imgs/actions/priority-feed-off", "Name": "Versteckt" },
+        { "Image": "imgs/actions/priority-feed-on",  "Name": "Sichtbar"  }
+      ]
+    },
+    {
+      "UUID": "com.firstlayer.overlay.toggle-cc",
+      "Name": "Closed Captions",
+      "Icon": "imgs/actions/cc",
+      "States": [
+        { "Image": "imgs/actions/cc-off", "Name": "Versteckt" },
+        { "Image": "imgs/actions/cc-on",  "Name": "Sichtbar"  }
+      ]
+    },
+    {
+      "UUID": "com.firstlayer.overlay.toggle-edit-mode",
+      "Name": "Edit Mode",
+      "Icon": "imgs/actions/edit-mode",
+      "States": [
+        { "Image": "imgs/actions/edit-mode-off", "Name": "Gesperrt"  },
+        { "Image": "imgs/actions/edit-mode-on",  "Name": "Edit Mode" }
+      ]
+    },
+    {
+      "UUID": "com.firstlayer.overlay.toggle-click-through",
+      "Name": "Click Through",
+      "Icon": "imgs/actions/click-through",
+      "States": [
+        { "Image": "imgs/actions/click-through-off", "Name": "Interaktiv"    },
+        { "Image": "imgs/actions/click-through-on",  "Name": "Click Through" }
+      ]
+    },
+    {
+      "UUID": "com.firstlayer.overlay.open-app",
+      "Name": "FirstLayer öffnen",
+      "Icon": "imgs/actions/open-app",
+      "States": [
+        { "Image": "imgs/actions/open-app" }
+      ]
+    },
+    {
+      "UUID": "com.firstlayer.overlay.session-marker",
+      "Name": "Key Moment",
+      "Icon": "imgs/actions/session-marker",
+      "States": [
+        { "Image": "imgs/actions/session-marker" }
+      ]
+    }
+  ]
+}
