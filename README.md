@@ -7,7 +7,7 @@ Stream Deck integration for the [FirstLayer](https://firstlayer.app) desktop app
 ## Requirements
 
 - **Stream Deck** software 6.4 or later
-- **FirstLayer** desktop app running (the plugin communicates with it locally)
+- **FirstLayer** desktop app 0.7.4 or later running (the plugin communicates with it locally)
 
 ---
 
